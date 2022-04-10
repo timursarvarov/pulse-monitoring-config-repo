@@ -1,12 +1,11 @@
 spring:
-
   datasource:
     driver-class-name: org.postgresql.Driver
     password: ${POSTGRES_PASSWORD}
 
     username: swqzicpytzwsox
-    url: postgres://swqzicpytzwsox:8e886bdac794c0d7a21cadd04c94a7cb56e94af7bf2f81f1e548763fe7c11c39ec2-52-48-159-67.eu-west-1.compute.amazonaws.com:5432/d4okts5sn1omon
-
+    url: jdbc:postgresql://eu-west-1.compute.amazonaws.com:5432/d4okts5sn1omon
+#  url: jdbc:postgresql://ec2-44-194-92-192.compute-1.amazonaws.com:5432/de8mb597miabt6
 
   jpa:
     hibernate:
