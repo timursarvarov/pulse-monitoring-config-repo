@@ -4,8 +4,7 @@ spring:
     password: ${POSTGRES_PASSWORD}
 
     username: swqzicpytzwsox
-    url: jdbc:postgresql://eu-west-1.compute.amazonaws.com:5432/d4okts5sn1omon
-#  url: jdbc:postgresql://ec2-44-194-92-192.compute-1.amazonaws.com:5432/de8mb597miabt6
+    url: jdbc:postgresql://ec2-52-48-159-67.eu-west-1.compute.amazonaws.com:5432/d4okts5sn1omon
 
   jpa:
     hibernate:
